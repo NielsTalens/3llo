@@ -17,6 +17,8 @@ module Tr3llo
         Command::Board::ListCommand.new(user_id)
       when 'select', 's'
         Command::Board::SelectCommand.new
+      when 'feed', 'f'
+        Command::Board::FeedCommand.new
       else
         Command::Board::InvalidCommand.new
       end

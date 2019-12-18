@@ -3,28 +3,24 @@ require_relative '../shared_functions.rb'
 
 module Tr3llo
   module Command
-    module List
-      class CardsCommand
+    module Feed
+      class FeedCommand
         def initialize(board_id)
           @board_id = board_id
         end
 
         def execute
-          interface.print_frame do
-            load_lists(@board_id)
-            puts '------------------>>>>>>>'
-            puts list_feed
-            Tr3llo::Presenter::List::CardsPresenter
-              .new(interface)
-              .print!(list_cards)
+
+          puts 'hoi hoi hoi hoi'
+          # interface.print_frame do
+          #   load_lists(@board_id)
+          #   Tr3llo::Presenter::List::CardsPresenter
+          #     .new(interface)
+          #     .print!(list_feed)
           end
         end
 
         private
-
-        def list_cards
-          API::Card.find_all_by_list(@list_id)
-        end
 
         def list_feed
           API::List.find_feeds_by_board(@board_id)
