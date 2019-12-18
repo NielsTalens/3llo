@@ -2,6 +2,7 @@
 
 require '3llo/presenter/help'
 require '3llo/presenter/board/list'
+require '3llo/presenter/board/feed'
 require '3llo/presenter/card/list'
 require '3llo/presenter/card/list_mine'
 require '3llo/presenter/card/move'

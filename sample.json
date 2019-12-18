@@ -1,0 +1,87 @@
+{
+    :id=>"5dfa8b53e106ac8a40f8e741", :idMemberCreator=>"4e705220853ed1020902f2b4",
+    :data=>{
+        :old=>{
+            :name=>"The new name is new"
+        },
+        :card=>{
+            :name=>"the old name is old", :id=>"5dea9d4607c055234aee38b9", :idShort=>10, :shortLink=>"3OoPAvNm"
+        },
+        :board=>{
+            :id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"
+        },
+    :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"
+        }
+    },
+    :type=>"updateCard", :date=>"2019-12-18T20:25:55.596Z", :limits=>{
+        },
+    :memberCreator=>{
+        :id=>"4e705220853ed1020902f2b4", :activityBlocked=>false, :avatarHash=>"acdfbd18963656155b71409f28eca39e", :avatarUrl=>"https://trello-avatars.s3.amazonaws.com/acdfbd18963656155b71409f28eca39e", :fullName=>"Niels Talens", :idMemberReferrer=>nil, :initials=>"NT", :nonPublic=>{}, :nonPublicAvailable=>false, :username=>"nielstalens"}
+    }
+
+
+    [{:old=>{:name=>"The new name is new"}, :card=>{:name=>"the old name is old", :id=>"5dea9d4607c055234aee38b9", :idShort=>10, :shortLink=>"3OoPAvNm"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:old=>{
+        :idList=>"5dea6d3da24b0e3e21d52bba"
+        },
+        :card=>{
+            :idList=>"5dea6d40dbcc557faa88d2de", :id=>"5dea7eb179c8747332e59945", :name=>"It needs more text", :idShort=>7, :shortLink=>"TfavOmBU"
+            },
+            :board=>{
+                :id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"
+                },
+                :listBefore=>{
+                    :id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"
+                    },
+                    :listAfter=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"
+                        }
+                        }
+                        ] - updateCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5dea7e6c67384f18ac12deec", :name=>"It should define other names", :idShort=>6, :shortLink=>"eYvZi5Az"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5dea7e6c67384f18ac12deec", :name=>"It should define other names", :idShort=>6, :shortLink=>"eYvZi5Az"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5df90798f79b7341d4812aa6", :name=>"catch empty lists", :idShort=>31, :shortLink=>"A5Vf1mFi"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5df90798f79b7341d4812aa6", :name=>"catch empty lists", :idShort=>31, :shortLink=>"A5Vf1mFi"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:card=>{:id=>"5df90798f79b7341d4812aa6", :name=>"catch empty lists", :idShort=>31, :shortLink=>"A5Vf1mFi"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:pos=>196607}, :list=>{:pos=>114687, :id=>"5df8ccd7144b2d1c2a1d24d2", :name=>"In Progress"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - updateList
+    [{:list=>{:id=>"5df8ccd7144b2d1c2a1d24d2", :name=>"In Progress"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createList
+    [{:card=>{:id=>"5df8cc1b9c212d106a6de0f3", :name=>"Always show in red in which board you currently are.", :idShort=>30, :shortLink=>"2CwAVLAu"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:card=>{:id=>"5df8c92cb7c6a23203955b32", :name=>"Abillity to esc a certain menu", :idShort=>29, :shortLink=>"WLMn6lKI"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5deb79f4bc257f20b9824dcf", :name=>"exit exit aborrrt", :idShort=>14, :shortLink=>"t9qSD8rl"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5deb79f4bc257f20b9824dcf", :name=>"exit exit aborrrt", :idShort=>14, :shortLink=>"t9qSD8rl"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:old=>{:desc=>""}, :card=>{:desc=>"only the description needds change", :id=>"5deb79f4bc257f20b9824dcf", :name=>"exit exit aborrrt", :idShort=>14, :shortLink=>"t9qSD8rl"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4", "4e705220853ed1020902f2b4"], :id=>"5dea7ef81b857a3a6b6c6bf4", :name=>"restarted the terminal", :idShort=>8, :shortLink=>"z14eKsmh"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:card=>{:id=>"5df7bb056971b13367ba79e0", :name=>"", :idShort=>28, :shortLink=>"mHuJWPh5"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:pos=>81920}, :card=>{:pos=>16384, :id=>"5df77ed290015914af584848", :name=>"Write rspec tests for the shared functions", :idShort=>27, :shortLink=>"Ovh3tjpk"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}}] - updateCard
+    [{:old=>{:desc=>""}, :card=>{:desc=>"this I want to change", :id=>"5dea7eb179c8747332e59945", :name=>"It needs more text", :idShort=>7, :shortLink=>"TfavOmBU"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5dea73c0c815dd3537a6a7ef", :name=>"This is a new card", :idShort=>3, :shortLink=>"KrSF3j8w"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5dea73c0c815dd3537a6a7ef", :name=>"This is a new card", :idShort=>3, :shortLink=>"KrSF3j8w"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:old=>{:idList=>"5dea6d3da24b0e3e21d52bba"}, :card=>{:idList=>"5dea6d40dbcc557faa88d2de", :id=>"5dea7425ad40c467bc493351", :name=>"This card shines", :idShort=>4, :shortLink=>"xiYgXPr6"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :listBefore=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}, :listAfter=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5df77ed290015914af584848", :name=>"Write rspec tests for the shared functions", :idShort=>27, :shortLink=>"Ovh3tjpk"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5df77ed290015914af584848", :name=>"Write rspec tests for the shared functions", :idShort=>27, :shortLink=>"Ovh3tjpk"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:card=>{:id=>"5df77ed290015914af584848", :name=>"Write rspec tests for the shared functions", :idShort=>27, :shortLink=>"Ovh3tjpk"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:desc=>""}, :card=>{:desc=>"It is allready done", :id=>"5dead5d14c6be911d48f689a", :name=>"Other title", :idShort=>11, :shortLink=>"LBBE3tLI"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:old=>{:name=>"prrrrr mugjes 03"}, :card=>{:name=>"Other title", :id=>"5dead5d14c6be911d48f689a", :idShort=>11, :shortLink=>"LBBE3tLI"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:card=>{:id=>"5df75c6c40c76c7ee60118cf", :name=>"Create a activity stream to show everything that happens", :idShort=>26, :shortLink=>"f4WfcLv4"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:closed=>false}, :card=>{:closed=>true, :id=>"5dea7f5d4bb83378122ff899", :name=>"Is dit gelukt?", :idShort=>9, :shortLink=>"PsnsfX1P"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:old=>{:closed=>false}, :card=>{:closed=>true, :id=>"5deb798d84dece89c374e812", :name=>"This is a better name", :idShort=>13, :shortLink=>"2Un2iCBe"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5df758f6eb231a47cd25330d", :name=>"New functionality", :idShort=>25, :shortLink=>"ykLm9Z6p"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5df758f6eb231a47cd25330d", :name=>"New functionality", :idShort=>25, :shortLink=>"ykLm9Z6p"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5df72a4d6dfd25424f111b1e", :name=>"Show all comments at card show", :idShort=>22, :shortLink=>"nRZuasQn"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5df72a4d6dfd25424f111b1e", :name=>"Show all comments at card show", :idShort=>22, :shortLink=>"nRZuasQn"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:card=>{:id=>"5df758f6eb231a47cd25330d", :name=>"New functionality", :idShort=>25, :shortLink=>"ykLm9Z6p"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:idList=>"5df729994076977b6b4dfb82"}, :card=>{:idList=>"5dea6d40dbcc557faa88d2de", :id=>"5dea7f5d4bb83378122ff899", :name=>"Is dit gelukt?", :idShort=>9, :shortLink=>"PsnsfX1P"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :listBefore=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :listAfter=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:old=>{:idList=>"5dea6d3da24b0e3e21d52bba"}, :card=>{:idList=>"5df729994076977b6b4dfb82", :id=>"5dea7f5d4bb83378122ff899", :name=>"Is dit gelukt?", :idShort=>9, :shortLink=>"PsnsfX1P"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :listBefore=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}, :listAfter=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}}] - updateCard
+    [{:old=>{:desc=>"huh?"}, :card=>{:desc=>"It should work", :id=>"5df7572a1a956166723563c8", :name=>"Without attr-reader", :idShort=>24, :shortLink=>"mduNTDwR"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:old=>{:name=>"niels?"}, :card=>{:name=>"Without attr-reader", :id=>"5df7572a1a956166723563c8", :idShort=>24, :shortLink=>"mduNTDwR"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:old=>{:idMembers=>["4e705220853ed1020902f2b4"]}, :card=>{:idMembers=>["4e705220853ed1020902f2b4"], :id=>"5df7572a1a956166723563c8", :name=>"niels?", :idShort=>24, :shortLink=>"mduNTDwR"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}}] - updateCard
+    [{:idMember=>"4e705220853ed1020902f2b4", :card=>{:id=>"5df7572a1a956166723563c8", :name=>"niels?", :idShort=>24, :shortLink=>"mduNTDwR"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :member=>{:id=>"4e705220853ed1020902f2b4", :name=>"Niels Talens"}}] - addMemberToCard
+    [{:card=>{:id=>"5df7572a1a956166723563c8", :name=>"niels?", :idShort=>24, :shortLink=>"mduNTDwR"}, :list=>{:id=>"5dea6d3da24b0e3e21d52bba", :name=>"Backlog"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:idList=>"5df729994076977b6b4dfb82"}, :card=>{:idList=>"5dea6d40dbcc557faa88d2de", :id=>"5df72a25d46fdb410b4a595b", :name=>"catch when no text when showing comments", :idShort=>21, :shortLink=>"nfLtahtu"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}, :listBefore=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :listAfter=>{:id=>"5dea6d40dbcc557faa88d2de", :name=>"Done"}}] - updateCard
+    [{:card=>{:id=>"5df72ca400040d5ddbbc73eb", :name=>"Load the original text when editting a card", :idShort=>23, :shortLink=>"Hqrlpjuk"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:card=>{:id=>"5df72a4d6dfd25424f111b1e", :name=>"Show all comments at card show", :idShort=>22, :shortLink=>"nRZuasQn"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:card=>{:id=>"5df72a25d46fdb410b4a595b", :name=>"catch when no text when showing comments", :idShort=>21, :shortLink=>"nfLtahtu"}, :list=>{:id=>"5df729994076977b6b4dfb82", :name=>"ToDo"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - createCard
+    [{:old=>{:name=>"ToDo's"}, :list=>{:name=>"ToDo", :id=>"5df729994076977b6b4dfb82"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - updateList
+    [{:old=>{:pos=>196607}, :list=>{:pos=>98303, :id=>"5df729994076977b6b4dfb82", :name=>"ToDo's"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - updateList
+    [{:old=>{:name=>"Backlog"}, :list=>{:name=>"ToDo's", :id=>"5df729994076977b6b4dfb82"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - updateList
+    [{:old=>{:name=>"ToDo"}, :list=>{:name=>"Backlog", :id=>"5dea6d3da24b0e3e21d52bba"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - updateList
+    [{:old=>{:name=>"RealToDo"}, :list=>{:name=>"Backlog", :id=>"5df729994076977b6b4dfb82"}, :board=>{:id=>"5dea6d38aeaf578ddb90292c", :name=>"3llo", :shortLink=>"FG37iGaT"}}] - updateList

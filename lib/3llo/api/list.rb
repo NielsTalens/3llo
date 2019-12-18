@@ -17,18 +17,6 @@ module Tr3llo
         )
       end
 
-      def find_feeds_by_board(board_id)
-        JSON.parse(
-          client.get(
-            "/boards/#{board_id}/actions/",
-            list: true,
-            key: api_key,
-            token: api_token
-          ),
-          symbolize_names: true
-        )
-      end
-
       def archive_cards(list_id)
         JSON.parse(
           client.post(
