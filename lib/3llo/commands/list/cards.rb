@@ -12,7 +12,8 @@ module Tr3llo
         def execute
           interface.print_frame do
             load_lists(@board_id)
-
+            puts '------------------>>>>>>>'
+            puts list_feed
             Tr3llo::Presenter::List::CardsPresenter
               .new(interface)
               .print!(list_cards)
@@ -23,6 +24,10 @@ module Tr3llo
 
         def list_cards
           API::Card.find_all_by_list(@list_id)
+        end
+
+        def list_feed
+          API::Card.find_feeds_by_board(@board_id)
         end
 
         def load_lists(board_id)
