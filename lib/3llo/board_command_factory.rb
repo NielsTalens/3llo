@@ -2,6 +2,7 @@
 
 require '3llo/commands/board/list'
 require '3llo/commands/board/select'
+require '3llo/commands/board/feed'
 require '3llo/commands/board/invalid'
 
 module Tr3llo

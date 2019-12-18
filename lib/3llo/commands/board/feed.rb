@@ -3,11 +3,8 @@ require_relative '../shared_functions.rb'
 
 module Tr3llo
   module Command
-    module Feed
+    module Board
       class FeedCommand
-        def initialize(board_id)
-          @board_id = board_id
-        end
 
         def execute
 
@@ -17,7 +14,7 @@ module Tr3llo
           #   Tr3llo::Presenter::List::CardsPresenter
           #     .new(interface)
           #     .print!(list_feed)
-          end
+          # end
         end
 
         private
