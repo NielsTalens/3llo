@@ -11,9 +11,8 @@ module Tr3llo
 
         def execute
           interface.print_frame do
-            load_lists(@board_id)
-            puts '------------------>>>>>>>'
-            puts list_feed
+            @list_id = SharedFunctions.load_lists(@board_id)
+
             Tr3llo::Presenter::List::CardsPresenter
               .new(interface)
               .print!(list_cards)
